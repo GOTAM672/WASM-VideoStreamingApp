@@ -1,3 +1,15 @@
+/* import yew */
+use yew::prelude::*;
+
+#[function_component(App)]
+fn app() -> Html {
+    html!(
+        <div>
+            {r#"Hi!!!!"#}
+        </div>
+    )
+}
+
 fn main() {
-    println!("Hello, world!");
+    yew::start_app::<App>();
 }
